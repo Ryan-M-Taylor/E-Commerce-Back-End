@@ -34,4 +34,4 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Link to walkthrough video
 
-Click link to watch walkthrough video [Click Here](https://drive.google.com/file/d/1XZvD-t0uWKuYK0nblQ_rRDGz3WLb6Uk9/view)
+Click link to watch walkthrough video [Click Here](https://drive.google.com/file/d/1xu7G0X6Y0RYZU-OUTWAZLfojxgfgtmAp/view)
