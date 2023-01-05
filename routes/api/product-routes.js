@@ -37,14 +37,6 @@ router.get("/:id", async (req, res) => {
 
 // create new product
 router.post("/", (req, res) => {
-  /* req.body should look like this...
-    {
-      product_name: "Basketball",
-      price: 200.00,
-      stock: 3,
-      tagIds: [1, 2, 3, 4]
-    }
-  */
  
   Product.create(req.body)
     .then((product) => {
@@ -78,6 +70,7 @@ router.put("/:id", (req, res) => {
   })
     .then((product) => {
       // find all associated tags from ProductTag
+      
       return ProductTag.findAll({ where: { product_id: req.params.id } });
     })
     .then((productTags) => {
